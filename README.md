@@ -60,8 +60,15 @@ $ curl -X POST localhost:8080/api/Expense.Workflow/SaveExpenses \
 ```
 
 You may get an output as follows:
+
 ```json
 [{"status":"ok","result":null,"message":null}]
+```
+
+or,
+
+```json
+[{"status":"ok","result":[{"Title":"Expense Report 3","Amount":300.0,"Id":"74b1df98-aef5-4b3b-939d-535672e2af9c"}],"message":null,"type":"Expense.Workflow/Expense"}]
 ```
 
 ## License
