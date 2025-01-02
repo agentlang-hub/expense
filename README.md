@@ -54,7 +54,7 @@ agent run
 You need to open another terminal and run the following command:
 
 ```shell
-$ curl -X POST localhost:8080/api/Expense.Workflow/SaveExpenses \
+curl -X POST localhost:8080/api/Expense.Workflow/SaveExpenses \
   -H 'Content-type: application/json' \
   -d '{"Expense.Workflow/SaveExpenses": {"UserInstruction": "https://acme.com/bill/myexpense.jpg"}}'
 ```
